@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Functional_Test" duration-ms="24718" started-at="2019-02-09T05:59:24Z" finished-at="2019-02-09T05:59:48Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="24718" started-at="2019-02-09T05:59:24Z" finished-at="2019-02-09T05:59:48Z">
+      <class name="Maven.Selenium.testCase">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Maven.Selenium.testCase@6a4f787b]" name="beforeTest" is-config="true" duration-ms="3666" started-at="2019-02-09T05:59:24Z" finished-at="2019-02-09T05:59:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TC01_Fligth_Page()[pri:0, instance:Maven.Selenium.testCase@6a4f787b]" name="TC01_Fligth_Page" duration-ms="5403" started-at="2019-02-09T05:59:27Z" description="Test case to verify departure from and to city is selected." finished-at="2019-02-09T05:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_Fligth_Page -->
+        <test-method status="PASS" signature="TC02_Flight_Selection_Page()[pri:1, instance:Maven.Selenium.testCase@6a4f787b]" name="TC02_Flight_Selection_Page" duration-ms="2406" started-at="2019-02-09T05:59:33Z" description="Test case to validate Flight &#039;From&#039; and &#039;To&#039; information" finished-at="2019-02-09T05:59:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_Flight_Selection_Page -->
+        <test-method status="PASS" signature="TC03_Validation_Price_Amount()[pri:2, instance:Maven.Selenium.testCase@6a4f787b]" name="TC03_Validation_Price_Amount" duration-ms="4565" started-at="2019-02-09T05:59:36Z" description="Test case to verify prices amount and Total Cost" finished-at="2019-02-09T05:59:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_Validation_Price_Amount -->
+        <test-method status="PASS" signature="TC04_Presonal_Info()[pri:3, instance:Maven.Selenium.testCase@6a4f787b]" name="TC04_Presonal_Info" duration-ms="2908" started-at="2019-02-09T05:59:42Z" description="Test case to Fill Information from Excel file" finished-at="2019-02-09T05:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_Presonal_Info -->
+        <test-method status="PASS" signature="TC_05_Generate_Ticket()[pri:4, instance:Maven.Selenium.testCase@6a4f787b]" name="TC_05_Generate_Ticket" duration-ms="2583" started-at="2019-02-09T05:59:45Z" description="Test case to Verify Page title and take sceenshoot" finished-at="2019-02-09T05:59:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_Generate_Ticket -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Maven.Selenium.testCase@6a4f787b]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-02-09T05:59:48Z" finished-at="2019-02-09T05:59:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Maven.Selenium.testCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Functional_Test -->
+</testng-results>

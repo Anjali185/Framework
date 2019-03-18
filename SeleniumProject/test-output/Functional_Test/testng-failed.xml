@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Functional_Test]">
+  <listeners>
+    <listener class-name="Maven.Selenium.extentReport"/>
+    <listener class-name="Maven.Selenium.listenerCode"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Maven.Selenium.testCase">
+        <methods>
+          <include name="TC04_Presonal_Info"/>
+          <include name="TC03_Validation_Price_Amount"/>
+          <include name="TC_05_Generate_Ticket"/>
+          <include name="TC02_Flight_Selection_Page"/>
+          <include name="beforeTest"/>
+          <include name="TC01_Fligth_Page"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Maven.Selenium.testCase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Functional_Test] -->

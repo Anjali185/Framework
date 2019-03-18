@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Functional_Test" parallel="false">
+  
+  <listeners>
+  	<listener class-name="Maven.Selenium.extentReport"></listener>
+  	<listener class-name="Maven.Selenium.listenerCode"></listener>
+  </listeners>
+  
+  <test name="Test">
+    <classes>
+    <class name="Maven.Selenium.testCase"/></classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
